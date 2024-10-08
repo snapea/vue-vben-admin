@@ -167,6 +167,7 @@
     if (index !== -1) {
       const removed = fileListRef.value.splice(index, 1);
       emit('delete', removed[0][uidKey]);
+      
     }
   }
 
